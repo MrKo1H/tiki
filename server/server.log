@@ -1,0 +1,255 @@
+2021-12-27 04:01:35.761793 {'action': 'sign in', 'username': '0582748310', 'password': 'abcD1234'}
+2021-12-27 04:01:35.762057 {"action": "sign in", "status": "fail", "username": "0582748310", "password": "abcD1234"}
+2021-12-27 04:01:35.762309 {'action': 'get info', 'username': '0582748310', 'password': 'abcD1234'}
+2021-12-27 04:01:35.762376 {"action": "get info", "username": "0582748310", "password": "abcD1234", "status": "fail"}
+2021-12-27 04:01:35.762588 {'action': 'use tool', 'username': '0582748310', 'password': 'abcD1234', 'tool name': 'Tiki_Get_Account_Bill_Detail'}
+2021-12-27 04:02:04.050046 {'action': 'sign in', 'username': '0582748310', 'password': 'abcD1234'}
+2021-12-27 04:02:04.050359 {"action": "sign in", "status": "fail", "username": "0582748310", "password": "abcD1234"}
+2021-12-27 04:02:04.050624 {'action': 'get info', 'username': '0582748310', 'password': 'abcD1234'}
+2021-12-27 04:02:04.050734 {"action": "get info", "username": "0582748310", "password": "abcD1234", "status": "fail"}
+2021-12-27 04:02:04.050997 {'action': 'use tool', 'username': '0582748310', 'password': 'abcD1234', 'tool name': 'Tiki_Get_Account_Bill_Detail'}
+2021-12-27 04:02:16.532286 {'action': 'sign in', 'username': '0582748310', 'password': 'abcD1234'}
+2021-12-27 04:02:16.532593 {"action": "sign in", "status": "fail", "username": "0582748310", "password": "abcD1234"}
+2021-12-27 04:02:16.532885 {'action': 'get info', 'username': '0582748310', 'password': 'abcD1234'}
+2021-12-27 04:02:16.533005 {"action": "get info", "username": "0582748310", "password": "abcD1234", "status": "fail"}
+2021-12-27 04:02:16.533245 {'action': 'use tool', 'username': '0582748310', 'password': 'abcD1234', 'tool name': 'Tiki_Get_Account_Bill_Detail'}
+2021-12-27 04:03:12.150825 {'action': 'sign in', 'username': '0582748310', 'password': 'abcD1234'}
+2021-12-27 04:03:12.151152 {"action": "sign in", "status": "fail", "username": "0582748310", "password": "abcD1234"}
+2021-12-27 04:03:12.151436 {'action': 'get info', 'username': '0582748310', 'password': 'abcD1234'}
+2021-12-27 04:03:12.151529 {"action": "get info", "username": "0582748310", "password": "abcD1234", "status": "fail"}
+2021-12-27 04:03:12.151778 {'action': 'use tool', 'username': '0582748310', 'password': 'abcD1234', 'tool name': 'Tiki_Get_Account_Bill_Detail'}
+2021-12-27 04:04:01.589386 {'action': 'sign in', 'username': '0582748310', 'password': 'abcD1234'}
+2021-12-27 04:04:01.589797 {"action": "sign in", "status": "fail", "username": "0582748310", "password": "abcD1234"}
+2021-12-27 04:04:01.590307 {'action': 'get info', 'username': '0582748310', 'password': 'abcD1234'}
+2021-12-27 04:04:01.590460 {"action": "get info", "username": "0582748310", "password": "abcD1234", "status": "fail"}
+2021-12-27 04:04:01.590983 {'action': 'use tool', 'username': '0582748310', 'password': 'abcD1234', 'tool name': 'Tiki_Get_Account_Bill_Detail'}
+2021-12-27 04:07:56.955801 {'action': 'sign in', 'username': '0582748310', 'password': 'abcD1234'}
+2021-12-27 04:07:56.956103 {"action": "sign in", "status": "fail", "username": "0582748310", "password": "abcD1234"}
+2021-12-27 04:07:56.956382 {'action': 'get info', 'username': '0582748310', 'password': 'abcD1234'}
+2021-12-27 04:07:56.956496 {"action": "get info", "username": "0582748310", "password": "abcD1234", "status": "fail"}
+2021-12-27 04:07:56.956760 {'action': 'use tool', 'username': '0582748310', 'password': 'abcD1234', 'tool name': 'Tiki_Get_Account_Bill_Detail'}
+2021-12-27 04:08:13.920590 {'action': 'sign in', 'username': '0582748310', 'password': 'abcD1234'}
+2021-12-27 04:08:13.921052 {"action": "sign in", "status": "fail", "username": "0582748310", "password": "abcD1234"}
+2021-12-27 04:08:13.921544 {'action': 'get info', 'username': '0582748310', 'password': 'abcD1234'}
+2021-12-27 04:08:13.921701 {"action": "get info", "username": "0582748310", "password": "abcD1234", "status": "fail"}
+2021-12-27 04:08:13.922105 {'action': 'use tool', 'username': '0582748310', 'password': 'abcD1234', 'tool name': 'Tiki_Get_Account_Bill_Detail'}
+2021-12-27 04:08:13.922259 {"action": "use tool", "status": "fail", "username": "0582748310", "password": "abcD1234"}
+2021-12-27 04:08:15.362746 {'action': 'sign in', 'username': '0582748310', 'password': 'abcD1234'}
+2021-12-27 04:08:15.363001 {"action": "sign in", "status": "fail", "username": "0582748310", "password": "abcD1234"}
+2021-12-27 04:08:15.363419 {'action': 'get info', 'username': '0582748310', 'password': 'abcD1234'}
+2021-12-27 04:08:15.363559 {"action": "get info", "username": "0582748310", "password": "abcD1234", "status": "fail"}
+2021-12-27 04:08:15.363934 {'action': 'use tool', 'username': '0582748310', 'password': 'abcD1234', 'tool name': 'Tiki_Get_Account_Bill_Detail'}
+2021-12-27 04:08:15.364054 {"action": "use tool", "status": "fail", "username": "0582748310", "password": "abcD1234"}
+2021-12-27 04:08:15.905799 {'action': 'sign in', 'username': '0582748310', 'password': 'abcD1234'}
+2021-12-27 04:08:15.905988 {"action": "sign in", "status": "fail", "username": "0582748310", "password": "abcD1234"}
+2021-12-27 04:08:15.906339 {'action': 'get info', 'username': '0582748310', 'password': 'abcD1234'}
+2021-12-27 04:08:15.906456 {"action": "get info", "username": "0582748310", "password": "abcD1234", "status": "fail"}
+2021-12-27 04:08:15.906967 {'action': 'use tool', 'username': '0582748310', 'password': 'abcD1234', 'tool name': 'Tiki_Get_Account_Bill_Detail'}
+2021-12-27 04:08:15.907078 {"action": "use tool", "status": "fail", "username": "0582748310", "password": "abcD1234"}
+2021-12-27 04:08:16.342968 {'action': 'sign in', 'username': '0582748310', 'password': 'abcD1234'}
+2021-12-27 04:08:16.343160 {"action": "sign in", "status": "fail", "username": "0582748310", "password": "abcD1234"}
+2021-12-27 04:08:16.343591 {'action': 'get info', 'username': '0582748310', 'password': 'abcD1234'}
+2021-12-27 04:08:16.343696 {"action": "get info", "username": "0582748310", "password": "abcD1234", "status": "fail"}
+2021-12-27 04:08:16.343945 {'action': 'use tool', 'username': '0582748310', 'password': 'abcD1234', 'tool name': 'Tiki_Get_Account_Bill_Detail'}
+2021-12-27 04:08:16.344042 {"action": "use tool", "status": "fail", "username": "0582748310", "password": "abcD1234"}
+2021-12-27 04:08:16.738643 {'action': 'sign in', 'username': '0582748310', 'password': 'abcD1234'}
+2021-12-27 04:08:16.738839 {"action": "sign in", "status": "fail", "username": "0582748310", "password": "abcD1234"}
+2021-12-27 04:08:16.739191 {'action': 'get info', 'username': '0582748310', 'password': 'abcD1234'}
+2021-12-27 04:08:16.739345 {"action": "get info", "username": "0582748310", "password": "abcD1234", "status": "fail"}
+2021-12-27 04:08:16.739748 {'action': 'use tool', 'username': '0582748310', 'password': 'abcD1234', 'tool name': 'Tiki_Get_Account_Bill_Detail'}
+2021-12-27 04:08:16.739905 {"action": "use tool", "status": "fail", "username": "0582748310", "password": "abcD1234"}
+2021-12-27 04:09:06.277934 {'action': 'sign in', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:09:06.278284 {"action": "sign in", "status": "success", "username": "0582792955", "password": "ABcd1234", "money": 1000}
+2021-12-27 04:09:06.278734 {'action': 'get info', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:09:06.278880 {"username": "0582792955", "password": "ABcd1234", "credit": 1000}
+2021-12-27 04:09:06.279125 {'action': 'use tool', 'username': '0582792955', 'password': 'ABcd1234', 'tool name': 'Tiki_Get_Account_Bill_Detail'}
+2021-12-27 04:10:23.990473 {'action': 'sign in', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:10:23.990800 {"action": "sign in", "status": "success", "username": "0582792955", "password": "ABcd1234", "money": 1000}
+2021-12-27 04:10:23.991120 {'action': 'get info', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:10:23.991286 {"username": "0582792955", "password": "ABcd1234", "credit": 1000}
+2021-12-27 04:10:23.991673 {'action': 'use tool', 'username': '0582792955', 'password': 'ABcd1234', 'tool name': 'Tiki_Get_Account_Bill_Detail'}
+2021-12-27 04:11:02.129438 {'action': 'sign in', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:11:02.129849 {"action": "sign in", "status": "success", "username": "0582792955", "password": "ABcd1234", "money": 950}
+2021-12-27 04:11:02.130118 {'action': 'get info', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:11:02.130328 {"username": "0582792955", "password": "ABcd1234", "credit": 950}
+2021-12-27 04:11:02.130737 {'action': 'use tool', 'username': '0582792955', 'password': 'ABcd1234', 'tool name': 'Tiki_Get_Account_Bill_Detail'}
+2021-12-27 04:11:02.131472 {"action": "use tool", "status": "success", "username": "0582792955", "password": "ABcd1234", "BILL ID": 1, "payment": 50, "money": 900}
+2021-12-27 04:11:03.420194 {'action': 'sign in', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:11:03.420464 {"action": "sign in", "status": "success", "username": "0582792955", "password": "ABcd1234", "money": 900}
+2021-12-27 04:11:03.420751 {'action': 'get info', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:11:03.420876 {"username": "0582792955", "password": "ABcd1234", "credit": 900}
+2021-12-27 04:11:03.421145 {'action': 'use tool', 'username': '0582792955', 'password': 'ABcd1234', 'tool name': 'Tiki_Get_Account_Bill_Detail'}
+2021-12-27 04:11:03.421802 {"action": "use tool", "status": "success", "username": "0582792955", "password": "ABcd1234", "BILL ID": 2, "payment": 50, "money": 850}
+2021-12-27 04:11:03.969759 {'action': 'sign in', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:11:03.969991 {"action": "sign in", "status": "success", "username": "0582792955", "password": "ABcd1234", "money": 850}
+2021-12-27 04:11:03.970382 {'action': 'get info', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:11:03.970566 {"username": "0582792955", "password": "ABcd1234", "credit": 850}
+2021-12-27 04:11:03.971026 {'action': 'use tool', 'username': '0582792955', 'password': 'ABcd1234', 'tool name': 'Tiki_Get_Account_Bill_Detail'}
+2021-12-27 04:11:03.971694 {"action": "use tool", "status": "success", "username": "0582792955", "password": "ABcd1234", "BILL ID": 3, "payment": 50, "money": 800}
+2021-12-27 04:11:06.702667 {'action': 'sign in', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:11:06.702885 {"action": "sign in", "status": "success", "username": "0582792955", "password": "ABcd1234", "money": 800}
+2021-12-27 04:11:06.703211 {'action': 'get info', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:11:06.703337 {"username": "0582792955", "password": "ABcd1234", "credit": 800}
+2021-12-27 04:11:06.703560 {'action': 'use tool', 'username': '0582792955', 'password': 'ABcd1234', 'tool name': 'Tiki_Get_Account_Bill_Detail'}
+2021-12-27 04:11:06.704230 {"action": "use tool", "status": "success", "username": "0582792955", "password": "ABcd1234", "BILL ID": 4, "payment": 50, "money": 750}
+2021-12-27 04:11:07.230959 {'action': 'sign in', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:11:07.231190 {"action": "sign in", "status": "success", "username": "0582792955", "password": "ABcd1234", "money": 750}
+2021-12-27 04:11:07.231478 {'action': 'get info', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:11:07.231601 {"username": "0582792955", "password": "ABcd1234", "credit": 750}
+2021-12-27 04:11:07.232007 {'action': 'use tool', 'username': '0582792955', 'password': 'ABcd1234', 'tool name': 'Tiki_Get_Account_Bill_Detail'}
+2021-12-27 04:11:07.232636 {"action": "use tool", "status": "success", "username": "0582792955", "password": "ABcd1234", "BILL ID": 5, "payment": 50, "money": 700}
+2021-12-27 04:11:07.731821 {'action': 'sign in', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:11:07.732040 {"action": "sign in", "status": "success", "username": "0582792955", "password": "ABcd1234", "money": 700}
+2021-12-27 04:11:07.732353 {'action': 'get info', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:11:07.732480 {"username": "0582792955", "password": "ABcd1234", "credit": 700}
+2021-12-27 04:11:07.732729 {'action': 'use tool', 'username': '0582792955', 'password': 'ABcd1234', 'tool name': 'Tiki_Get_Account_Bill_Detail'}
+2021-12-27 04:11:07.733435 {"action": "use tool", "status": "success", "username": "0582792955", "password": "ABcd1234", "BILL ID": 6, "payment": 50, "money": 650}
+2021-12-27 04:11:08.213724 {'action': 'sign in', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:11:08.213987 {"action": "sign in", "status": "success", "username": "0582792955", "password": "ABcd1234", "money": 650}
+2021-12-27 04:11:08.214273 {'action': 'get info', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:11:08.214405 {"username": "0582792955", "password": "ABcd1234", "credit": 650}
+2021-12-27 04:11:08.214658 {'action': 'use tool', 'username': '0582792955', 'password': 'ABcd1234', 'tool name': 'Tiki_Get_Account_Bill_Detail'}
+2021-12-27 04:11:08.215294 {"action": "use tool", "status": "success", "username": "0582792955", "password": "ABcd1234", "BILL ID": 7, "payment": 50, "money": 600}
+2021-12-27 04:11:09.626315 {'action': 'sign in', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:11:09.626595 {"action": "sign in", "status": "success", "username": "0582792955", "password": "ABcd1234", "money": 600}
+2021-12-27 04:11:09.627012 {'action': 'get info', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:11:09.627144 {"username": "0582792955", "password": "ABcd1234", "credit": 600}
+2021-12-27 04:11:09.627381 {'action': 'use tool', 'username': '0582792955', 'password': 'ABcd1234', 'tool name': 'Tiki_Get_Account_Bill_Detail'}
+2021-12-27 04:11:09.628040 {"action": "use tool", "status": "success", "username": "0582792955", "password": "ABcd1234", "BILL ID": 8, "payment": 50, "money": 550}
+2021-12-27 04:11:10.075505 {'action': 'sign in', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:11:10.075780 {"action": "sign in", "status": "success", "username": "0582792955", "password": "ABcd1234", "money": 550}
+2021-12-27 04:11:10.076092 {'action': 'get info', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:11:10.076225 {"username": "0582792955", "password": "ABcd1234", "credit": 550}
+2021-12-27 04:11:10.076494 {'action': 'use tool', 'username': '0582792955', 'password': 'ABcd1234', 'tool name': 'Tiki_Get_Account_Bill_Detail'}
+2021-12-27 04:11:10.077168 {"action": "use tool", "status": "success", "username": "0582792955", "password": "ABcd1234", "BILL ID": 9, "payment": 50, "money": 500}
+2021-12-27 04:11:10.512327 {'action': 'sign in', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:11:10.512554 {"action": "sign in", "status": "success", "username": "0582792955", "password": "ABcd1234", "money": 500}
+2021-12-27 04:11:10.512869 {'action': 'get info', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:11:10.512997 {"username": "0582792955", "password": "ABcd1234", "credit": 500}
+2021-12-27 04:11:10.513261 {'action': 'use tool', 'username': '0582792955', 'password': 'ABcd1234', 'tool name': 'Tiki_Get_Account_Bill_Detail'}
+2021-12-27 04:11:10.513904 {"action": "use tool", "status": "success", "username": "0582792955", "password": "ABcd1234", "BILL ID": 10, "payment": 50, "money": 450}
+2021-12-27 04:11:10.938089 {'action': 'sign in', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:11:10.938378 {"action": "sign in", "status": "success", "username": "0582792955", "password": "ABcd1234", "money": 450}
+2021-12-27 04:11:10.938788 {'action': 'get info', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:11:10.938959 {"username": "0582792955", "password": "ABcd1234", "credit": 450}
+2021-12-27 04:11:10.939197 {'action': 'use tool', 'username': '0582792955', 'password': 'ABcd1234', 'tool name': 'Tiki_Get_Account_Bill_Detail'}
+2021-12-27 04:11:10.939834 {"action": "use tool", "status": "success", "username": "0582792955", "password": "ABcd1234", "BILL ID": 11, "payment": 50, "money": 400}
+2021-12-27 04:11:11.412771 {'action': 'sign in', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:11:11.413105 {"action": "sign in", "status": "success", "username": "0582792955", "password": "ABcd1234", "money": 400}
+2021-12-27 04:11:11.413606 {'action': 'get info', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:11:11.413724 {"username": "0582792955", "password": "ABcd1234", "credit": 400}
+2021-12-27 04:11:11.413987 {'action': 'use tool', 'username': '0582792955', 'password': 'ABcd1234', 'tool name': 'Tiki_Get_Account_Bill_Detail'}
+2021-12-27 04:11:11.414575 {"action": "use tool", "status": "success", "username": "0582792955", "password": "ABcd1234", "BILL ID": 12, "payment": 50, "money": 350}
+2021-12-27 04:11:11.957738 {'action': 'sign in', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:11:11.957948 {"action": "sign in", "status": "success", "username": "0582792955", "password": "ABcd1234", "money": 350}
+2021-12-27 04:11:11.958231 {'action': 'get info', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:11:11.958351 {"username": "0582792955", "password": "ABcd1234", "credit": 350}
+2021-12-27 04:11:11.958633 {'action': 'use tool', 'username': '0582792955', 'password': 'ABcd1234', 'tool name': 'Tiki_Get_Account_Bill_Detail'}
+2021-12-27 04:11:11.959268 {"action": "use tool", "status": "success", "username": "0582792955", "password": "ABcd1234", "BILL ID": 13, "payment": 50, "money": 300}
+2021-12-27 04:11:13.180261 {'action': 'sign in', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:11:13.180549 {"action": "sign in", "status": "success", "username": "0582792955", "password": "ABcd1234", "money": 300}
+2021-12-27 04:11:13.181055 {'action': 'get info', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:11:13.181237 {"username": "0582792955", "password": "ABcd1234", "credit": 300}
+2021-12-27 04:11:13.181629 {'action': 'use tool', 'username': '0582792955', 'password': 'ABcd1234', 'tool name': 'Tiki_Get_Account_Bill_Detail'}
+2021-12-27 04:11:13.182286 {"action": "use tool", "status": "success", "username": "0582792955", "password": "ABcd1234", "BILL ID": 14, "payment": 50, "money": 250}
+2021-12-27 04:11:14.764690 {'action': 'sign in', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:11:14.765025 {"action": "sign in", "status": "success", "username": "0582792955", "password": "ABcd1234", "money": 250}
+2021-12-27 04:11:14.765579 {'action': 'get info', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:11:14.765710 {"username": "0582792955", "password": "ABcd1234", "credit": 250}
+2021-12-27 04:11:14.765972 {'action': 'use tool', 'username': '0582792955', 'password': 'ABcd1234', 'tool name': 'Tiki_Get_Account_Bill_Detail'}
+2021-12-27 04:11:14.766608 {"action": "use tool", "status": "success", "username": "0582792955", "password": "ABcd1234", "BILL ID": 15, "payment": 50, "money": 200}
+2021-12-27 04:11:14.985724 {'action': 'sign in', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:11:14.986012 {"action": "sign in", "status": "success", "username": "0582792955", "password": "ABcd1234", "money": 200}
+2021-12-27 04:11:14.986304 {'action': 'get info', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:11:14.986417 {"username": "0582792955", "password": "ABcd1234", "credit": 200}
+2021-12-27 04:11:14.986661 {'action': 'use tool', 'username': '0582792955', 'password': 'ABcd1234', 'tool name': 'Tiki_Get_Account_Bill_Detail'}
+2021-12-27 04:11:14.987338 {"action": "use tool", "status": "success", "username": "0582792955", "password": "ABcd1234", "BILL ID": 16, "payment": 50, "money": 150}
+2021-12-27 04:11:15.206793 {'action': 'sign in', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:11:15.207006 {"action": "sign in", "status": "success", "username": "0582792955", "password": "ABcd1234", "money": 150}
+2021-12-27 04:11:15.207298 {'action': 'get info', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:11:15.207417 {"username": "0582792955", "password": "ABcd1234", "credit": 150}
+2021-12-27 04:11:15.207631 {'action': 'use tool', 'username': '0582792955', 'password': 'ABcd1234', 'tool name': 'Tiki_Get_Account_Bill_Detail'}
+2021-12-27 04:11:15.208278 {"action": "use tool", "status": "success", "username": "0582792955", "password": "ABcd1234", "BILL ID": 17, "payment": 50, "money": 100}
+2021-12-27 04:11:15.424702 {'action': 'sign in', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:11:15.438193 {"action": "sign in", "status": "success", "username": "0582792955", "password": "ABcd1234", "money": 100}
+2021-12-27 04:11:15.438629 {'action': 'get info', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:11:15.439006 {"username": "0582792955", "password": "ABcd1234", "credit": 100}
+2021-12-27 04:11:15.439485 {'action': 'use tool', 'username': '0582792955', 'password': 'ABcd1234', 'tool name': 'Tiki_Get_Account_Bill_Detail'}
+2021-12-27 04:11:15.440999 {"action": "use tool", "status": "success", "username": "0582792955", "password": "ABcd1234", "BILL ID": 18, "payment": 50, "money": 50}
+2021-12-27 04:11:15.642062 {'action': 'sign in', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:11:15.642276 {"action": "sign in", "status": "success", "username": "0582792955", "password": "ABcd1234", "money": 50}
+2021-12-27 04:11:15.642567 {'action': 'get info', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:11:15.642685 {"username": "0582792955", "password": "ABcd1234", "credit": 50}
+2021-12-27 04:11:15.642979 {'action': 'use tool', 'username': '0582792955', 'password': 'ABcd1234', 'tool name': 'Tiki_Get_Account_Bill_Detail'}
+2021-12-27 04:11:59.107333 {'action': 'sign in', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:11:59.107666 {"action": "sign in", "status": "success", "username": "0582792955", "password": "ABcd1234", "money": 50}
+2021-12-27 04:11:59.107934 {'action': 'get info', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:11:59.108074 {"username": "0582792955", "password": "ABcd1234", "credit": 50}
+2021-12-27 04:11:59.108325 {'action': 'use tool', 'username': '0582792955', 'password': 'ABcd1234', 'tool name': 'Tiki_Get_Account_Bill_Detail'}
+2021-12-27 04:11:59.108541 {"action": "use tool", "status": "fail", "username": "0582792955", "password": "ABcd1234", "payment": 50, "money": 50}
+2021-12-27 04:12:01.231747 {'action': 'sign in', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:12:01.231961 {"action": "sign in", "status": "success", "username": "0582792955", "password": "ABcd1234", "money": 50}
+2021-12-27 04:12:01.232257 {'action': 'get info', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:12:01.232369 {"username": "0582792955", "password": "ABcd1234", "credit": 50}
+2021-12-27 04:12:01.232709 {'action': 'use tool', 'username': '0582792955', 'password': 'ABcd1234', 'tool name': 'Tiki_Get_Account_Bill_Detail'}
+2021-12-27 04:12:01.232885 {"action": "use tool", "status": "fail", "username": "0582792955", "password": "ABcd1234", "payment": 50, "money": 50}
+2021-12-27 04:12:04.493530 {'action': 'sign in', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:12:04.493754 {"action": "sign in", "status": "success", "username": "0582792955", "password": "ABcd1234", "money": 50}
+2021-12-27 04:12:04.494041 {'action': 'get info', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:12:04.494169 {"username": "0582792955", "password": "ABcd1234", "credit": 50}
+2021-12-27 04:12:04.494421 {'action': 'use tool', 'username': '0582792955', 'password': 'ABcd1234', 'tool name': 'Tiki_Get_Account_Bill_Detail'}
+2021-12-27 04:12:04.494563 {"action": "use tool", "status": "fail", "username": "0582792955", "password": "ABcd1234", "payment": 50, "money": 50}
+2021-12-27 04:12:06.097904 {'action': 'sign in', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:12:06.098168 {"action": "sign in", "status": "success", "username": "0582792955", "password": "ABcd1234", "money": 50}
+2021-12-27 04:12:06.098460 {'action': 'get info', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:12:06.098604 {"username": "0582792955", "password": "ABcd1234", "credit": 50}
+2021-12-27 04:12:06.099003 {'action': 'use tool', 'username': '0582792955', 'password': 'ABcd1234', 'tool name': 'Tiki_Get_Account_Bill_Detail'}
+2021-12-27 04:12:06.099294 {"action": "use tool", "status": "fail", "username": "0582792955", "password": "ABcd1234", "payment": 50, "money": 50}
+2021-12-27 04:12:06.823861 {'action': 'sign in', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:12:06.824129 {"action": "sign in", "status": "success", "username": "0582792955", "password": "ABcd1234", "money": 50}
+2021-12-27 04:12:06.824500 {'action': 'get info', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:12:06.824677 {"username": "0582792955", "password": "ABcd1234", "credit": 50}
+2021-12-27 04:12:06.824997 {'action': 'use tool', 'username': '0582792955', 'password': 'ABcd1234', 'tool name': 'Tiki_Get_Account_Bill_Detail'}
+2021-12-27 04:12:06.825188 {"action": "use tool", "status": "fail", "username": "0582792955", "password": "ABcd1234", "payment": 50, "money": 50}
+2021-12-27 04:12:29.430822 {'action': 'sign in', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:12:29.431256 {"action": "sign in", "status": "success", "username": "0582792955", "password": "ABcd1234", "money": 50}
+2021-12-27 04:12:29.431560 {'action': 'get info', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:12:29.431727 {"username": "0582792955", "password": "ABcd1234", "credit": 50}
+2021-12-27 04:12:29.431975 {'action': 'use tool', 'username': '0582792955', 'password': 'ABcd1234', 'tool name': 'Tiki_Get_Account_Bill_Detail'}
+2021-12-27 04:12:29.432772 {"action": "use tool", "status": "success", "username": "0582792955", "password": "ABcd1234", "BILL ID": 1, "payment": 50, "money": 0}
+2021-12-27 04:12:29.956598 {'action': 'sign in', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:12:29.956822 {"action": "sign in", "status": "success", "username": "0582792955", "password": "ABcd1234", "money": 0}
+2021-12-27 04:12:29.957130 {'action': 'get info', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:12:29.957226 {"username": "0582792955", "password": "ABcd1234", "credit": 0}
+2021-12-27 04:12:29.957500 {'action': 'use tool', 'username': '0582792955', 'password': 'ABcd1234', 'tool name': 'Tiki_Get_Account_Bill_Detail'}
+2021-12-27 04:12:29.957684 {"action": "use tool", "status": "fail", "username": "0582792955", "password": "ABcd1234", "payment": 50, "money": 0}
+2021-12-27 04:12:30.376289 {'action': 'sign in', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:12:30.376596 {"action": "sign in", "status": "success", "username": "0582792955", "password": "ABcd1234", "money": 0}
+2021-12-27 04:12:30.377053 {'action': 'get info', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:12:30.377251 {"username": "0582792955", "password": "ABcd1234", "credit": 0}
+2021-12-27 04:12:30.377595 {'action': 'use tool', 'username': '0582792955', 'password': 'ABcd1234', 'tool name': 'Tiki_Get_Account_Bill_Detail'}
+2021-12-27 04:12:30.377827 {"action": "use tool", "status": "fail", "username": "0582792955", "password": "ABcd1234", "payment": 50, "money": 0}
+2021-12-27 04:12:30.813030 {'action': 'sign in', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:12:30.813247 {"action": "sign in", "status": "success", "username": "0582792955", "password": "ABcd1234", "money": 0}
+2021-12-27 04:12:30.813589 {'action': 'get info', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:12:30.813715 {"username": "0582792955", "password": "ABcd1234", "credit": 0}
+2021-12-27 04:12:30.814110 {'action': 'use tool', 'username': '0582792955', 'password': 'ABcd1234', 'tool name': 'Tiki_Get_Account_Bill_Detail'}
+2021-12-27 04:12:30.814284 {"action": "use tool", "status": "fail", "username": "0582792955", "password": "ABcd1234", "payment": 50, "money": 0}
+2021-12-27 04:12:31.269548 {'action': 'sign in', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:12:31.269824 {"action": "sign in", "status": "success", "username": "0582792955", "password": "ABcd1234", "money": 0}
+2021-12-27 04:12:31.270257 {'action': 'get info', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:12:31.270543 {"username": "0582792955", "password": "ABcd1234", "credit": 0}
+2021-12-27 04:12:31.270954 {'action': 'use tool', 'username': '0582792955', 'password': 'ABcd1234', 'tool name': 'Tiki_Get_Account_Bill_Detail'}
+2021-12-27 04:12:31.271141 {"action": "use tool", "status": "fail", "username": "0582792955", "password": "ABcd1234", "payment": 50, "money": 0}
+2021-12-27 04:12:31.656583 {'action': 'sign in', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:12:31.656854 {"action": "sign in", "status": "success", "username": "0582792955", "password": "ABcd1234", "money": 0}
+2021-12-27 04:12:31.657288 {'action': 'get info', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:12:31.657462 {"username": "0582792955", "password": "ABcd1234", "credit": 0}
+2021-12-27 04:12:31.657841 {'action': 'use tool', 'username': '0582792955', 'password': 'ABcd1234', 'tool name': 'Tiki_Get_Account_Bill_Detail'}
+2021-12-27 04:12:31.657974 {"action": "use tool", "status": "fail", "username": "0582792955", "password": "ABcd1234", "payment": 50, "money": 0}
+2021-12-27 04:12:32.045132 {'action': 'sign in', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:12:32.045368 {"action": "sign in", "status": "success", "username": "0582792955", "password": "ABcd1234", "money": 0}
+2021-12-27 04:12:32.045823 {'action': 'get info', 'username': '0582792955', 'password': 'ABcd1234'}
+2021-12-27 04:12:32.046019 {"username": "0582792955", "password": "ABcd1234", "credit": 0}
+2021-12-27 04:12:32.046412 {'action': 'use tool', 'username': '0582792955', 'password': 'ABcd1234', 'tool name': 'Tiki_Get_Account_Bill_Detail'}
+2021-12-27 04:12:32.046614 {"action": "use tool", "status": "fail", "username": "0582792955", "password": "ABcd1234", "payment": 50, "money": 0}

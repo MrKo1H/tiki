@@ -41,14 +41,17 @@ def sign_up(username, password):
 		return json.dumps({"action": "sign up", "status": "success", "username":username, "password":password})
 		
 def use_tool(username, password, tool_name):
+	global BILL_CNT
+	if not Data.check_user(username, password):
+		return json.dumps({"action":"use tool", "status":"fail", "username": username, "password": password, "status":"fail"})
 	credit = Data.get_credit(username, password)
 	cost   = Tool.get_cost(tool_name)
-	if( credit > cost):
-		Data.set_credit(credit - cost)
-		BILL_CNT += 1
+	if( credit >= cost):
+		Data.set_credit(username, password, credit - cost)
+		BILL_CNT = BILL_CNT + 1
 		return json.dumps({"action":"use tool", "status": "success", "username":username, "password":password, "BILL ID":BILL_CNT,"payment":cost, "money":credit-cost})
 	else:
-		return json.dumps({"action":"use tool", "status": "fail"   , "username":username, "password":password, "payment":cost, "money":money}) 
+		return json.dumps({"action":"use tool", "status": "fail"   , "username":username, "password":password, "payment":cost, "money":credit}) 
 def log(username, password, bill_id, tool_name):
 	logging(f'user name:{username} password:{password} bill id:{bill_id} tool name:{tool_name}')
 	return json.dumps({"action":"log", "status":"success"})

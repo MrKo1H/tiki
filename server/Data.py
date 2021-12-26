@@ -7,7 +7,7 @@ CONNECTION	= sqlite3.connect(FILE, check_same_thread=False)
 CURSOR  	= CONNECTION.cursor()
 TABLE_NAME	= "users"
 
-def create_tabel():
+def create_table():
 	global CURSOR, CONNECTION
 	CURSOR.execute(f"DROP TABLE IF EXISTS {TABLE_NAME}")
 	CURSOR.execute(f"""CREATE TABLE {TABLE_NAME}(
@@ -47,6 +47,28 @@ def sub_credit(username, password, amount):
 	
 def set_credit(username, password, value):
 	global CURSOR, CONNECTION
-	CURSOR.execute(f'UPDATE {TABLE_NAME} SET credit={value};')
+	CURSOR.execute(f'UPDATE {TABLE_NAME} SET credit="{value}";')
 	CONNECTION.commit()
 
+
+data = """0564408103 abcD1234
+0564408221 abcD1234
+0564408227 abcD1234
+0564408010 abcD1234
+0564408158 abcD1234
+0564408141 abcD1234
+0564408224 abcD1234
+0582749657 ABcd1234
+0582792955 ABcd1234
+0582794490 ABcd1234
+0582792943 ABcd1234
+0582795037 ABcd1234
+0582794604 ABcd1234
+0582738845 ABcd1234
+0582792947 ABcd1234
+0582748310 ABcd1234
+0582792949 ABcd1234""".split("\n")
+create_table()
+for x in data:
+	xx = x.split(" ")
+	add_user(xx[0], xx[1], 1000)

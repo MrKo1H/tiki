@@ -37,6 +37,7 @@ def sign_up(username, password):
 	if Data.check_user(username, password):
 		return json.dumps({"action": "sign up", "status": "fail"   , "username":username, "password":password})
 	else:
+		Data.sign_up(username, password)
 		return json.dumps({"action": "sign up", "status": "success", "username":username, "password":password})
 		
 def use_tool(username, password, tool_name):
@@ -51,6 +52,10 @@ def use_tool(username, password, tool_name):
 def log(username, password, bill_id, tool_name):
 	logging(f'user name:{username} password:{password} bill id:{bill_id} tool name:{tool_name}')
 	return json.dumps({"action":"log", "status":"success"})
+
+def get_info(username, password):
+	return Data.get_info(username, password)
+
 #######################################################################################################################################
 
 def error(action):
@@ -94,9 +99,19 @@ def handler(lock, confd, addr):
 			confd.send(response.encode('utf-8'))
 			confd.close()
 			lock.release()
+			return
+		if action == "get info":
+			username = request.get("username")
+			password = request.get("password")
+			lock.acquire()
+			response = get_info(username, password)
+			print(response)
+			confd.send(response.encode('utf-8'))
+			lock.release()
+			return
 		lock.acquire()
-		confd.send(error("fail"))
-		log.release()
+		confd.send(error("fail").encode())
+		lock.release()
 	except socket.error as err: 
 		print(err)
 def start():

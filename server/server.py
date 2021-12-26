@@ -125,7 +125,7 @@ def start():
 		confd = socket.socket()
 	except socket.error: 
 		print('error create socket')
-	s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEPORT, 1)	
+	confd.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEPORT, 1)	
 	confd.bind((IP, PORT))
 	confd.listen(LISTEN_MAX)
 	print(confd)

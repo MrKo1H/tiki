@@ -64,6 +64,7 @@ def error(action):
 def handler(lock, confd, addr):
 	try:
 		request = json.loads(confd.recv(BUFFER_SIZE).decode('utf-8'))
+		logging(request)
 		action = request.get("action")
 		username = request.get("username")
 		password = request.get("password")
@@ -72,6 +73,7 @@ def handler(lock, confd, addr):
 			response = sign_in(username, password)
 			confd.send(response.encode('utf-8'))
 			confd.close()
+			logging(response)
 			lock.release()
 			return
 		if action == "sign up":
@@ -79,6 +81,7 @@ def handler(lock, confd, addr):
 			respones =sign_up(username, password)
 			confd.send(response.encode('utf-8'))
 			confd.close()
+			logging(response)
 			lock.release()
 			return
 		if action == "use tool":
@@ -87,6 +90,7 @@ def handler(lock, confd, addr):
 			response = use_tool(username, password, tool_name)
 			confd.send(response.encode('utf-8'))
 			confd.close()
+			logging(response)
 			lock.release()
 			return
 		if action == "log":
@@ -98,6 +102,7 @@ def handler(lock, confd, addr):
 			response = log(username, password, bill_id, tool_name)
 			confd.send(response.encode('utf-8'))
 			confd.close()
+			logging(response)
 			lock.release()
 			return
 		if action == "get info":
@@ -105,8 +110,9 @@ def handler(lock, confd, addr):
 			password = request.get("password")
 			lock.acquire()
 			response = get_info(username, password)
-			print(response)
 			confd.send(response.encode('utf-8'))
+			confd.close()
+			logging(response)
 			lock.release()
 			return
 		lock.acquire()

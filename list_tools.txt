@@ -1,0 +1,3 @@
+Tiki_Electricity_Bill_Payment_Tool 1000
+Tiki_Register_Account 500
+Tiki_Get_Account_Bill_Detail 50

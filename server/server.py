@@ -48,8 +48,8 @@ def use_tool(username, password, tool_name):
 		return json.dumps({"action":"use tool", "status": "success", "username":username, "password":password, "BILL ID":BILL_CNT,"payment":cost, "money":credit-cost})
 	else:
 		return json.dumps({"action":"use tool", "status": "fail"   , "username":username, "password":password, "payment":cost, "money":money}) 
-def log(username, password, payment, tool_name):
-	logging(f'{username} {password} {payment} {tool_name}')
+def log(username, password, bill_id, tool_name):
+	logging(f'user name:{username} password:{password} bill id:{bill_id} tool name:{tool_name}')
 	return json.dumps({"action":"log", "status":"success"})
 #######################################################################################################################################
 
@@ -87,10 +87,10 @@ def handler(lock, confd, addr):
 		if action == "log":
 			username = request.get("username")
 			password = request.get("password")
-			payment  = request.get("payment")
+			bill_id  = request.get("bill id")
 			tool_name= request.get("tool name")
 			lock.acquire()
-			response = log(username, password, payment, tool_name)
+			response = log(username, password, bill_id, tool_name)
 			confd.send(response.encode('utf-8'))
 			confd.close()
 			lock.release()

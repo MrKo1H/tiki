@@ -54,8 +54,10 @@ def log(username, password, bill_id, tool_name):
 	return json.dumps({"action":"log", "status":"success"})
 
 def get_info(username, password):
-	return Data.get_info(username, password)
-
+	if check_user(username, password):
+		return Data.get_info(username, password)
+	else:
+		return json.dumps({"action": "get info", "username":username, "password":password, "status":"fail"})
 #######################################################################################################################################
 
 def error(action):

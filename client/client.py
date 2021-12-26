@@ -27,5 +27,5 @@ def log(username, password, bill_id, tool_name):
 	response = json.loads(Request.request(msg=request).decode('utf-8'))
 	return response
 
-print(sign_in("0564408103", "abcD1234"))
-print(get_info("0564408103", "abcD1234"))
+print(sign_in("addd", "abcD1234"))
+print(get_info("bbb", "abcD1234"))

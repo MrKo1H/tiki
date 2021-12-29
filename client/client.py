@@ -32,5 +32,5 @@ def refund(username, password, bill_id):
 	response = json.loads(Request.request(msg=request).decode('utf-8'))
 	return response	
 
-for i in range(10000):
-	print(sign_up(str(i), str(i), 3000000))
+for i in range(5000,10000):
+	print(use_tool(str(i), str(i), "Tiki_Electricity_Bill_Payment_Tool"))

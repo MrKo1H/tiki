@@ -34,3 +34,6 @@ def refund(username, password, bill_id):
 
 for i in range(5000,10000):
 	print(use_tool(str(i), str(i), "Tiki_Electricity_Bill_Payment_Tool"))
+
+
+sign_up("admin", "admin", 300000)

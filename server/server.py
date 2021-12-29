@@ -34,7 +34,7 @@ def sign_in(username, password):
 		return json.dumps({"action": "sign in", "status": "fail"   , "username":username, "password":password, "money":0})
 
 def sign_up(username, password, credit):
-	if Data.check_user(username, password):
+	if Data.check_user_name(username):
 		return json.dumps({"action": "sign up", "status": "fail"   , "username":username, "password":password, "credit":credit})
 	else:
 		Data.add_user(username, password, credit)

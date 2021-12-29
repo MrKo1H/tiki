@@ -23,6 +23,14 @@ def create_table():
 	CONNECTION.commit()
 def check_user(username, password):
 	global CURSOR
+	CURSOR.execute(f'SELECT username FROM {TABLE_NAME} WHERE username="{username}" AND password="{password}";')
+	l = CURSOR.fetchall()
+	if not l:
+		return False
+	return True
+
+def check_user_name(username):
+	global CURSOR
 	CURSOR.execute(f'SELECT username FROM {TABLE_NAME} WHERE username="{username}";')
 	l = CURSOR.fetchall()
 	if not l:

@@ -73,4 +73,8 @@ def add_bill_id(bill_id, cost):
 	global CURSOR, CONNECTION
 	CURSOR.execute(f"INSERT INTO bills VALUES({bill_id},{cost})")
 	CONNECTION.commit()
-create_table()
+
+def count_billid():
+	global CURSOR
+	CURSOR.execute(f"SELECT count * from bills;")
+	return CURSOR.fetchall()[0]

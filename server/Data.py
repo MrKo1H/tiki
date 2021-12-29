@@ -15,7 +15,7 @@ def create_table():
 		password varchar(30),
 		credit BIGINT
 	);""")
-	CURSOR.execute("DROP TABLE IF EXISTS bills");
+	CURSOR.execute("DROP TABLE IF EXISTS bills;");
 	CURSOR.execute("""CREATE TABLE bills(
 		bill_id BIGINT PRIMARY KEY,
 		payment BIGINT
@@ -73,3 +73,4 @@ def add_bill_id(bill_id, cost):
 	global CURSOR, CONNECTION
 	CURSOR.execute(f"INSERT INTO bills VALUES({bill_id},{cost})")
 	CONNECTION.commit()
+create_table()

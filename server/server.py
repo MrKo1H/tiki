@@ -151,7 +151,7 @@ def start():
 	confd.bind((IP, PORT))
 	confd.listen(LISTEN_MAX)
 	print(confd)
-	BILL_CNT = Data.count_billid()
+	BILL_CNT = Data.count_billid() + 10
 	print(BILL_CNT)
 
 	lock = threading.Lock()

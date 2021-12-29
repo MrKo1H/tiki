@@ -1,7 +1,7 @@
 import sys
 import json
 import Request
-
+import time
 def sign_in(username, password):
 	request = json.dumps({"action":"sign in", "username":username, "password":password}).encode('utf-8')
 	response = json.loads(Request.request(msg=request).decode('utf-8'))
@@ -32,8 +32,7 @@ def refund(username, password, bill_id):
 	response = json.loads(Request.request(msg=request).decode('utf-8'))
 	return response	
 
-for i in range(5000,10000):
-	print(use_tool(str(i), str(i), "Tiki_Electricity_Bill_Payment_Tool"))
 
-
-sign_up("admin", "admin", 300000)
+while(True):
+	print(sign_up("ro22", "ro22", "0"))
+	time.sleep(10)

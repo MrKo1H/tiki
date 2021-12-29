@@ -76,5 +76,5 @@ def add_bill_id(bill_id, cost):
 
 def count_billid():
 	global CURSOR
-	CURSOR.execute(f"SELECT count * from bills;")
+	CURSOR.execute(f"SELECT count (*) from bills;")
 	return CURSOR.fetchall()[0]

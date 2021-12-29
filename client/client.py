@@ -33,4 +33,4 @@ def refund(username, password, bill_id):
 	return response	
 
 for i in range(10000):
-	print(refund(str(i),str(i), str(i)))
+	print(sign_up(str(i), str(i), 3000000))

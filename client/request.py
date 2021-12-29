@@ -2,8 +2,8 @@ import socket
 import sys
 import json
 
-#IP 			="18.117.174.245"
-IP = "127.0.0.1"
+IP 			="18.117.174.245"
+#IP = "127.0.0.1"
 PORT 		= 8888
 BUFFER_SIZE = 1024
 

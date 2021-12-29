@@ -62,7 +62,7 @@ def check_bill_id(bill_id):
 	if not l:
 		return False
 	return True
-def refund_bill_id(bill_id, username, password):
+def refund_bill_id(username, password, bill_id):
 	global CURSOR, CONNECTION
 	CURSOR.execute(f"SELECT payment from bills where bill_id={bill_id}")
 	cost = -1 * CURSOR.fetchall()[0][0]

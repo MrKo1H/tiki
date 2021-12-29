@@ -15,6 +15,11 @@ def create_table():
 		password varchar(30),
 		credit BIGINT
 	);""")
+	CURSOR.execute("DROP TABLE IF EXISTS bills");
+	CURSOR.execute("""CREATE TABLE bills(
+		bill_id BIGINT PRIMARY KEY,
+		payment BIGINT
+		);""")
 	CONNECTION.commit()
 def check_user(username, password):
 	global CURSOR
@@ -42,11 +47,29 @@ def get_credit(username,password):
 def sub_credit(username, password, amount):
 	global CURSOR, CONNECTION
 	x = get_credit(username, password)
-	CURSOR.execute(f'UPDATE {TABLE_NAME} SET credit={x - amount};')
+	CURSOR.execute(f'UPDATE {TABLE_NAME} SET credit={x - amount} where username="{username}" and password="{password}";')
 	CONNECTION.commit()
 	
 def set_credit(username, password, value):
 	global CURSOR, CONNECTION
-	CURSOR.execute(f'UPDATE {TABLE_NAME} SET credit="{value}";')
+	CURSOR.execute(f'UPDATE {TABLE_NAME} SET credit="{value}" where username="{username}" and password="{password}";')
 	CONNECTION.commit()
 
+def check_bill_id(bill_id):
+	global CURSOR
+	CURSOR.execute(f'Select bill_id from bills where bill_id = {bill_id}')
+	l = CURSOR.fetchall()
+	if not l:
+		return False
+	return True
+def refund_bill_id(bill_id, username, password):
+	global CURSOR, CONNECTION
+	CURSOR.execute(f"SELECT payment from bills where bill_id={bill_id}")
+	cost = -1 * CURSOR.fetchall()[0][0]
+	CURSOR.execute(f"DELETE FROM bills where bill_id={bill_id}")
+	sub_credit(username,password, cost)
+	CONNECTION.commit()
+def add_bill_id(bill_id, cost):
+	global CURSOR, CONNECTION
+	CURSOR.execute(f"INSERT INTO bills VALUES({bill_id},{cost})")
+	CONNECTION.commit()

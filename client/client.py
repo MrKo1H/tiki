@@ -12,8 +12,8 @@ def use_tool(username, password, tool_name):
 	response = json.loads(Request.request(msg=request).decode('utf-8'))
 	return response
 
-def sign_up(username, password):
-	request = json.dumps({"action":"sign up", "username":username, "password":password}).encode('utf-8')
+def sign_up(username, password, credit):
+	request = json.dumps({"action":"sign up", "username":username, "password":password, "credit":credit}).encode('utf-8')
 	response = json.loads(Request.request(msg=request).decode('utf-8'))
 	return response
 
@@ -27,6 +27,10 @@ def log(username, password, bill_id, tool_name):
 	response = json.loads(Request.request(msg=request).decode('utf-8'))
 	return response
 
-print(sign_in("0582792955", "ABcd1234"))
-print(get_info("0582792955", "ABcd1234"))
-print(use_tool("0582792955", "ABcd1234","Tiki_Get_Account_Bill_Detail"))
+def refund(username, password, bill_id):
+	request = json.dumps({"action":"refund", "username":username, "password":password, "bill id":bill_id}).encode('utf-8')
+	response = json.loads(Request.request(msg=request).decode('utf-8'))
+	return response	
+
+for i in range(10000):
+	print(refund(str(i),str(i), str(i)))

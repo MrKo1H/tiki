@@ -31,14 +31,14 @@ def sign_in(username, password):
 		credit = Data.get_credit(username, password)
 		return json.dumps({"action": "sign in", "status": "success", "username":username, "password":password, "money":credit})
 	else:
-		return json.dumps({"action": "sign in", "status": "fail"   , "username":username, "password":password})
+		return json.dumps({"action": "sign in", "status": "fail"   , "username":username, "password":password, "money":0})
 
-def sign_up(username, password):
+def sign_up(username, password, credit):
 	if Data.check_user(username, password):
-		return json.dumps({"action": "sign up", "status": "fail"   , "username":username, "password":password})
+		return json.dumps({"action": "sign up", "status": "fail"   , "username":username, "password":password, "credit":credit})
 	else:
-		Data.sign_up(username, password)
-		return json.dumps({"action": "sign up", "status": "success", "username":username, "password":password})
+		Data.add_user(username, password, credit)
+		return json.dumps({"action": "sign up", "status": "success", "username":username, "password":password, "credit":credit})
 		
 def use_tool(username, password, tool_name):
 	global BILL_CNT
@@ -49,6 +49,7 @@ def use_tool(username, password, tool_name):
 	if( credit >= cost):
 		Data.set_credit(username, password, credit - cost)
 		BILL_CNT = BILL_CNT + 1
+		Data.add_bill_id(BILL_CNT, cost)
 		return json.dumps({"action":"use tool", "status": "success", "username":username, "password":password, "BILL ID":BILL_CNT,"payment":cost, "money":credit-cost})
 	else:
 		return json.dumps({"action":"use tool", "status": "fail"   , "username":username, "password":password, "payment":cost, "money":credit}) 
@@ -61,6 +62,16 @@ def get_info(username, password):
 		return Data.get_info(username, password)
 	else:
 		return json.dumps({"action": "get info", "username":username, "password":password, "status":"fail"})
+
+def refund(username, password, bill_id):
+	if not Data.check_user(username, password):
+		return json.dumps({"action":"refund", "username":username, "password":password, "status":"fail"})
+	if not Data.check_bill_id(bill_id):
+		return json.dumps({"action":"refund", "username":username, "password":password, "status":"fail"})
+	Data.refund_bill_id(username, password, bill_id)
+	credit = Data.get_credit(username, password)
+	return json.dumps({"action":"refund", "username":username, "password":password, "money": credit, "status":"success"})
+
 #######################################################################################################################################
 
 def error(action):
@@ -83,7 +94,8 @@ def handler(lock, confd, addr):
 			return
 		if action == "sign up":
 			lock.acquire()
-			respones =sign_up(username, password)
+			credit = request.get("credit")
+			response =sign_up(username, password, credit)
 			confd.send(response.encode('utf-8'))
 			confd.close()
 			logging(response)
@@ -99,8 +111,6 @@ def handler(lock, confd, addr):
 			lock.release()
 			return
 		if action == "log":
-			username = request.get("username")
-			password = request.get("password")
 			bill_id  = request.get("bill id")
 			tool_name= request.get("tool name")
 			lock.acquire()
@@ -111,10 +121,17 @@ def handler(lock, confd, addr):
 			lock.release()
 			return
 		if action == "get info":
-			username = request.get("username")
-			password = request.get("password")
 			lock.acquire()
 			response = get_info(username, password)
+			confd.send(response.encode('utf-8'))
+			confd.close()
+			logging(response)
+			lock.release()
+			return
+		if action == "refund":
+			bill_id = request.get("bill id")
+			lock.acquire()
+			response = refund(username, password, bill_id)
 			confd.send(response.encode('utf-8'))
 			confd.close()
 			logging(response)

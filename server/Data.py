@@ -17,7 +17,7 @@ def create_table():
 	);""")
 	CURSOR.execute("DROP TABLE IF EXISTS bills;");
 	CURSOR.execute("""CREATE TABLE bills(
-		bill_id BIGINT PRIMARY KEY,
+		bill_id BIGINT,
 		payment BIGINT
 		);""")
 	CONNECTION.commit()

@@ -86,3 +86,4 @@ def count_billid():
 	global CURSOR
 	CURSOR.execute(f"SELECT count (*) from bills;")
 	return CURSOR.fetchall()[0][0]
+create_table()
